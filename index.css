@@ -149,6 +149,10 @@ div h2{
     text-align: center;
     justify-content: space-evenly;
 }
+.btn4{
+    height:45px;
+    width: 505.3px;
+}
 /* bOX LOGIN */
 .Box login{
     width: 50%;
@@ -176,4 +180,29 @@ margin-bottom: 24px;
 }
 footer1 textarea{
     height: 200px;
+}
+.copy-right{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.customiz{
+    background-color: rgb(228, 233, 233);
+    height: 10px;
+    padding: 30px;
+}
+ #option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 40px;
+ }
+ ._text{
+    margin-top: 30px;
+ }
+ ._logo{
+    height: 50px;
+ }
+.copy-right img{
+    height: 40px;
 }
