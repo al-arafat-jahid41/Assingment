@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+/* Nav started */
+.head{
+    background-image: url('Assets/Hero-bg.png');
+     height: 450px;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    padding: 50px;
+    justify-content: space-around;
+}
+.btn-primarry{
+    height: 40px;
+    width: 90px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    background-color: blue;
+    color: white;
+}
+.btn-primarry:hover{
+    border: 2px solid whitesmoke;
+}
+img{
+    mix-blend-mode: multiply;
+}
+/* header text and btn */
+
+.bannar{
+    height:70px ;
+    width: 350px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size: larger;
+}
+.btn2{
+    width: 120px;
+}
+/* main section */
+.main1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 460px;
+}
+.btn3{
+    height: 45px;
+    width: 180px;
+}
+.main-para{
+    width: 300px;
+    margin-top: 30px;
+}
+.Gray{
+    color: gray;
+}
+.main1 img{
+    border-radius: 30px;
+    height: 200px;
+    width: 300px;
+}
+/* Testimonial */
+.testimonial h2{
+    text-align: center;
+    margin-bottom: 40px;
+  font-size: 2rem;
+  color: #1f1f3e;
+}
+.testimonial-text{
+      display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.text-containar{
+    height: 160px;
+    width: 300px;
+    background-color: rgb(250, 243, 243);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 0.1px 5px rgb(171, 169, 169);
+}
+.text-containar:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.testimonial-tex h3{
+   padding-top: 10px;
+}
+.image{
+    border-radius: 100px;
+}
+.Reviwer{
+    display: flex;
+    gap: 15px;
+}
+.reviw {
+   margin-top: 5px;
+}
+.testimonial-paragraph
+{
+  padding-bottom:15px ;
+  padding-top: 15px;
+}
+/*User-Manual  */
+.use-menu{
+    height: 306px;
+    width: 1100px;
+    background-color: rgb(240, 232, 232);
+    margin-left: 210px;
+    border-radius: 20px;
+    margin-top: 70px;
+
+}
+.use-menu-all{
+    padding: 40px;
+}
+div h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.use-num{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.use-menu-tittle{
+    display: flex;
+        justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
