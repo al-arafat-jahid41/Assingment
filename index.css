@@ -45,6 +45,7 @@ img{
 }
 .btn2{
     width: 120px;
+    list-style: none ;
 }
 /* main section */
 .main1{
@@ -60,6 +61,10 @@ img{
 .main-para{
     width: 300px;
     margin-top: 30px;
+}
+.main-para-prgp{
+    font-size: larger;
+    font-weight: 900;
 }
 .Gray{
     color: gray;
@@ -120,6 +125,9 @@ img{
     border-radius: 20px;
     margin-top: 70px;
 
+}
+.use-menu:hover{
+     border: 2px solid rgb(246, 240, 240);
 }
 .use-menu-all{
     padding: 40px;
