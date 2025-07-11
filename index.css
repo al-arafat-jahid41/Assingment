@@ -22,7 +22,7 @@ nav{
     height: 40px;
     width: 90px;
     margin-top: 10px;
-    border-radius: 12px;
+    border-radius: 18px;
     border: 2px solid transparent;
     background-color: blue;
     color: white;
@@ -43,9 +43,16 @@ img{
     margin-left: 600px;
     font-size: larger;
 }
+.btn2 a{
+       color: white;
+       text-decoration: none;
+       font-size:large;
+      
+}
 .btn2{
-    width: 120px;
-    list-style: none ;
+    width: 200px;
+    height: 50px;
+     margin-top: 30px;
 }
 /* main section */
 .main1{
@@ -55,8 +62,14 @@ img{
     gap: 460px;
 }
 .btn3{
-    height: 45px;
-    width: 180px;
+    height: 55px;
+    width: 250px;
+    margin-top: 20px;
+}
+.btn3 a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
 }
 .main-para{
     width: 300px;
@@ -157,6 +170,14 @@ div h2{
 .Box login{
     width: 50%;
 }
+.btn4 a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.btn4{
+    height: 50px;
+}
 .Box{
     display:flex;
     justify-content: center;
@@ -205,4 +226,22 @@ footer1 textarea{
  }
 .copy-right img{
     height: 40px;
+}
+nav button a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.btn1{
+    height: 50px;
+    width: 150px;
+}
+.-image{
+    text-align: center;
+    background-color: rgb(228, 233, 233);
+}
+.-image img{
+  mix-blend-mode: multiply;
+  height: 100px;
+  width: 100px;
 }
