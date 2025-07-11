@@ -162,6 +162,9 @@ div h2{
     text-align: center;
     justify-content: space-evenly;
 }
+.use-num-color{
+    color: rgb(114, 47, 176);
+}
 .btn4{
     height:45px;
     width: 505.3px;
